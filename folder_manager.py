@@ -3,6 +3,7 @@ import shutil
 import calendar
 from datetime import datetime
 
+
 def create_yearly_folders(year):
     """
     Creates folders for all 12 months of a given year.
@@ -26,8 +27,6 @@ def create_yearly_folders(year):
 
     print("All months and days have been created successfully.")
 
-# Example usage:
-create_yearly_folders(2025)  # Replace with desired year
 
 def load_content_into_folders(year, source_directory):
     """
@@ -60,4 +59,3 @@ def load_content_into_folders(year, source_directory):
             print(f"Moved {file_name} to {destination_folder}")
 
     print("All files have been sorted into their respective month folders.")
-
